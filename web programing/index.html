@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/official_logo.ico"
+      type="image/x-icon"
+    />
+    <title>Cekdar Balik, Portfolio website</title>
+
+    <!-- linking css -->
+    <link rel="stylesheet" href="script.css" />
+
+    <!-- box menu icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="my-background">
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Developer</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Cekdar Balik</h1>
+        <h3>And I'm a <span>Software Engineer Student</span></h3>
+        <p>
+          As a software engineering student, I aim to leverage technology as a tool for problem-solving.
+           I have gained experience through projects in OOP, database management, and web development.
+            With an innovative, solution-focused, and lifelong learning mindset, I aspire to create impactful and sustainable software solutions.
+        </p>
+
+        <div class="social-media">
+
+          <a href="https://www.instagram.com/cekdar_blk?igsh=MThiaG12a3ljNHhweQ%3D%3D&utm_source=qr"><i class="bx bxl-instagram"></i></a>
+        
+          <a href="https://github.com/cekdar3373"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://x.com/cekdar_blk?s=21"><i class='bx bxl-twitter'></i></a>
+          
+        </div>
+        
+      </div>
+
+      <div class="home-img">
+        <img src="./assets/logo3.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="home-img">
+        <img src="./assets/logo3.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Engineer Student</h3>
+        <p>
+          I am passionate about exploring the vast world of computer science.
+          Throughout my academic journey, I have developed my skills in programming languages ​​such as Java, Python, HTML, CSS, JavaScript, and PHP.
+          My curiosity and dedication keep me up to date with the latest trends in technology.
+          I am eager to contribute to the technology sector and am open to exciting opportunities that will allow me to apply and expand my knowledge.
+          Let's connect and explore the endless possibilities in the field of technology together!🚀
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- project section -->
+    <section class="project" id="project">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="project-container">
+        <div class="project-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Developement</h3>
+          <p>
+            
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="project-box">
+          <i class="bx bxl-android"></i>
+          <h3>Android Developement</h3>
+          <p>
+            
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="project-box">
+          <i class="bx bxs-terminal"></i>
+          <h3>Command line Apps</h3>
+          <p>
+            
+          </p>
+          <a href="#" target="_blank" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>me!</span></h2>
+
+      <form>
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="text" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="mobile Number" />
+          <input type="text" placeholder="Email subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+
+    <script>
+      VANTA.NET({
+        el: "#home",
+        color: 0xff3f81, // Color of the net
+        backgroundColor: 0x23153c, // Background color
+        points: 10, // Number of points in the net
+        maxDistance: 20, // Maximum distance between points
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
